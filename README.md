@@ -1,7 +1,7 @@
 # SOEN-6611-SOFTWARE-MEASUREMENT
 ## METRICSTICS
 
-
+METRICSTICS is your all-in-one solution for seamless data analysis, visualization, and reporting. Designed for both beginners and experts, it simplifies statistical calculations, generates insightful reports, and offers robust data visualization tools. From data enthusiasts to researchers and decision-makers, METRICSTICS empowers you to transform data into actionable insights. Administrators can easily configure settings and manage user accounts, making METRICSTICS the ideal companion for data-driven tasks.
 
 
 
