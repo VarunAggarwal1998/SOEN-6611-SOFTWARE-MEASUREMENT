@@ -1,7 +1,7 @@
 # SOEN-6611-SOFTWARE-MEASUREMENT
 ## METRICSTICS
 
-METRICSTICS is your all-in-one solution for seamless data analysis, visualization, and reporting. Designed for both beginners and experts, it simplifies statistical calculations, generates insightful reports, and offers robust data visualization tools. From data enthusiasts to researchers and decision-makers, METRICSTICS empowers you to transform data into actionable insights. Administrators can easily configure settings and manage user accounts, making METRICSTICS the ideal companion for data-driven tasks.
+METRICSTICS is all-in-one solution for seamless data analysis, visualization, and reporting. Designed for both beginners and experts, it simplifies statistical calculations, generates insightful reports, and offers robust data visualization tools. From data enthusiasts to researchers and decision-makers, METRICSTICS empowers you to transform data into actionable insights. Administrators can easily configure settings and manage user accounts, making METRICSTICS the ideal companion for data-driven tasks. The purpose of descriptive statistics is to quantitatively describe a collection of data by measures of central tendency, measures of frequency, and measures of variability. It also aims to create a set of interrelated artifacts for conducting certain measurements related to METRICSTICS.  
 
 
 
