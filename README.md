@@ -9,7 +9,7 @@
 
 
 
-Varun	Aggarwal	
+Varun Aggarwal	
 
 
 
@@ -43,51 +43,28 @@ Mohammadreza Amini
          </tr>
          <tr>
             <td>Varun Aggarwal</td>
-            <td>Problem 1 : Listing Assumptions</td>
-            <td>Problem 2: Constructing Problem Domain Model</td>
-            <td>Problem 3: Contructing Mind Map, Prepare Interview Questions</td>
-            <td>Problem 4: Creating Use Cases for our Use Case Model</td>
-            <td>Problem 5: Constructing a UML activity diagram</td>
+            <td>Problem 1 : Listing 2 Goal Specific Questions</td>
+            <td>Problem 2 : Constructing a Use Case Diagram</td>
          </tr>
          <tr>
-            <td>Ujjawal Aggarwal</td>
-            <td>Problem 1 : Brief Description</td>
-            <td>Problem 2: Defining class, attribute, and relationship.</td>
-            <td>Problem 3: Contructing Mind Map, Prepare Interview Questions</td>
-            <td>Problem 4: Creating Use Cases for our Use Case Model</td>
-            <td>Problem 5: Constructing a UML activity diagram</td>
+            <td>Merlin Mary Abraham</td>
+            <td>Problem 1 : Listing 2 Goal Specific Questions</td>
+            <td>Problem 2 : Constructing a Use Case Diagram</td>
          </tr>
          <tr>
-            <td>Reva Balasundaram</td>
-            <td>Problem 1 : Listing Assumptions</td>
-            <td>Problem 2: UML Package Diagram and Note</td>
-            <td>Problem 3: Contructing Mind Map, Conducting Interviews</td>
-            <td>Problem 4: Construct UML use case diagram</td>
-            <td>Problem 5: Constructing a UML activity diagram</td>
+            <td>Hadi Ahmad</td>
+            <td>Problem 1 : Listing 2 Goal Specific Questions</td>
+            <td>Problem 2 : Writng Description of Use Cases</td>
          </tr>
          <tr>
-            <td>Imad Altaf</td>
-            <td>Problem 1: Model Characteristics</td>
-            <td>Problem 2: Constructing Problem Domain Model</td>
-            <td>Problem 3: Contructing Mind Map, Conducting Interviews</td>
-            <td>Problem 4: Construct UML use case diagram</td>
-            <td>Problem 5: Constructing a UML activity diagram</td>
+            <td>Alireza Amini</td>
+            <td>Problem 1 : Listing 2 Goal Specific Questions</td>
+            <td>Problem 2 : Writig Description of Use Cases</td>
          </tr>
          <tr>
-            <td>Arjun Anghan</td>
-            <td>Problem 1: Model Characteristics</td>
-            <td>Problem 2: UML Package Diagram and Note</td>
-            <td>Problem 3: Contructing Mind Map, Documenting conclusions derived from interviews</td>
-            <td>Problem 4: Documenting LaTex</td>
-            <td>Problem 5: Constructing a UML activity diagram</td>
-         </tr>
-         <tr>
-            <td>Shivangi Arul</td>
-            <td>Problem 1 : Brief Description</td>
-            <td>Problem 2: Defining class, attribute, and relationship.</td>
-            <td>Problem 3: Contructing Mind Map, Documenting conclusions derived from interviews</td>
-            <td>Problem 4: Documenting LaTex</td>
-            <td>Problem 5: Constructing a UML activity diagram</td>
+            <td>Mohammadreza Amini</td>
+            <td>Problem 1 : Listing 2 Goal Specific Questions</td>
+            <td>Problem 2 : LaTex Documentation</td>
          </tr>
       </tbody>
    </table>
