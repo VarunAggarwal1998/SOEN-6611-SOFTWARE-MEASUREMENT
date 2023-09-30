@@ -54,12 +54,12 @@ Mohammadreza Amini
          <tr>
             <td>Hadi Ahmad</td>
             <td>Problem 1 : Listing 2 Goal Specific Questions</td>
-            <td>Problem 2 : Writng Description of Use Cases</td>
+            <td>Problem 2 : Writing Description of Use Cases</td>
          </tr>
          <tr>
             <td>Alireza Amini</td>
             <td>Problem 1 : Listing 2 Goal Specific Questions</td>
-            <td>Problem 2 : Writig Description of Use Cases</td>
+            <td>Problem 2 : Writing Description of Use Cases</td>
          </tr>
          <tr>
             <td>Mohammadreza Amini</td>
