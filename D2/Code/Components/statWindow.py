@@ -1,6 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 import pandas as pd
+from calculator import Statistics
 from statistics import mean, median, mode, StatisticsError, stdev, variance
 import numpy as np
 
@@ -81,12 +82,22 @@ class MainWindow:
         self.reset_button.pack(pady=20)
 
         # Table to display the statistics
+        # Styling the table for a better appearance
+        style = ttk.Style()
+        style.configure("Treeview", 
+                        background="#D3D3D3",  # Light Gray
+                        foreground="black",
+                        rowheight=25,  # increased row height for readability
+                        fieldbackground="#D3D3D3")  # Light Gray
+        style.map('Treeview', background=[('selected', 'blue')])  # highlight selection
+
+        # Table to display the statistics
         self.tree = ttk.Treeview(self.root, column=("c1", "c2"), show='headings')
-        self.tree.column("#1", anchor=tk.CENTER)
+        self.tree.column("#1", anchor=tk.CENTER, width=300)  # increased width for better spacing
         self.tree.heading("#1", text="Statistic")
-        self.tree.column("#2", anchor=tk.CENTER)
+        self.tree.column("#2", anchor=tk.CENTER, width=300)  # increased width for better spacing
         self.tree.heading("#2", text="Value")
-        self.tree.pack(pady=20)
+        self.tree.pack(pady=20, expand=True, fill='both')  # make table expandable
 
         self.numbers = []
         self.file_content = None
@@ -159,13 +170,13 @@ class MainWindow:
 
         try:
             # Calculate statistics
-            numbers_mean = mean(self.numbers)
-            numbers_median = median(self.numbers)
-            numbers_mode = mode(self.numbers)
-            numbers_min = min(self.numbers)
-            numbers_max = max(self.numbers)
-            mean_abs_deviation = np.mean(np.abs(self.numbers - np.mean(self.numbers)))
-            numbers_stdev = stdev(self.numbers)
+            numbers_mean = Statistics.calculate_mean(self.numbers)
+            numbers_median = Statistics.calculate_median(self.numbers)
+            numbers_mode = Statistics.calculate_mode(self.numbers)
+            numbers_min = Statistics.calculate_min(self.numbers)
+            numbers_max = Statistics.calculate_max(self.numbers)
+            mean_abs_deviation = Statistics.calculate_mean_absolute_deviation(self.numbers)
+            numbers_stdev = Statistics.calculate_standard_deviation(self.numbers)
 
             # Clear previous stats
             for _ in self.tree.get_children():
