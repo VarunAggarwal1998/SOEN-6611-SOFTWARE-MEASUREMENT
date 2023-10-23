@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 import pandas as pd
 from calculator import Statistics
-from statistics import mean, median, mode, StatisticsError, stdev, variance
+from statistics import StatisticsError
 import numpy as np
 
 class MainWindow:
