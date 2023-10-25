@@ -1,7 +1,7 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk
 import pandas as pd
-from calculator import Statistics
+from METRICSTICS import metricstics
 from statistics import StatisticsError
 import numpy as np
 
@@ -170,13 +170,13 @@ class MainWindow:
 
         try:
             # Calculate statistics
-            numbers_mean = Statistics.calculate_mean(self.numbers)
-            numbers_median = Statistics.calculate_median(self.numbers)
-            numbers_mode = Statistics.calculate_mode(self.numbers)
-            numbers_min = Statistics.calculate_min(self.numbers)
-            numbers_max = Statistics.calculate_max(self.numbers)
-            mean_abs_deviation = Statistics.calculate_mean_absolute_deviation(self.numbers)
-            numbers_stdev = Statistics.calculate_standard_deviation(self.numbers)
+            numbers_mean = metricstics.calculate_mean(self.numbers)
+            numbers_median = metricstics.calculate_median(self.numbers)
+            numbers_mode = metricstics.calculate_mode(self.numbers)
+            numbers_min = metricstics.calculate_min(self.numbers)
+            numbers_max = metricstics.calculate_max(self.numbers)
+            mean_abs_deviation = metricstics.calculate_mean_absolute_deviation(self.numbers)
+            numbers_stdev = metricstics.calculate_standard_deviation(self.numbers)
 
             # Clear previous stats
             for _ in self.tree.get_children():

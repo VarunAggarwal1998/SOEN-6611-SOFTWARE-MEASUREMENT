@@ -1,4 +1,4 @@
-class Statistics:
+class metricstics:
     """
     A class used to calculate statistical measures on a list of numbers without using any built-in functions.
 
@@ -32,7 +32,7 @@ class Statistics:
     def calculate_median(numbers):
         """Calculate the median of a list of numbers."""
         # First, we need to sort the numbers manually
-        sorted_numbers = Statistics.sort_numbers(numbers)
+        sorted_numbers = metricstics.sort_numbers(numbers)
         n = len(sorted_numbers)
         middle = n // 2
         if n % 2 == 0:
@@ -93,7 +93,7 @@ class Statistics:
         if not numbers:
             return None
 
-        mean_value = Statistics.calculate_mean(numbers)
+        mean_value = metricstics.calculate_mean(numbers)
         total_deviation = 0
         for num in numbers:
             total_deviation += abs(num - mean_value)
@@ -105,14 +105,14 @@ class Statistics:
         if len(numbers) < 2:
             return None
 
-        mean_value = Statistics.calculate_mean(numbers)
+        mean_value = metricstics.calculate_mean(numbers)
         sum_of_squared_differences = 0
         for num in numbers:
             sum_of_squared_differences += (num - mean_value) ** 2
 
         variance = sum_of_squared_differences / (len(numbers) - 1)  # Sample variance
 
-        return Statistics.sqrt(variance)  # Standard deviation is the square root of variance
+        return metricstics.sqrt(variance)  # Standard deviation is the square root of variance
 
     @staticmethod
     def sort_numbers(numbers):
