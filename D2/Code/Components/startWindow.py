@@ -1,6 +1,8 @@
 import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk, font
 import pandas as pd
+
+from Components import randomValues
 from METRICSTICS import metricstics
 from PIL import Image, ImageTk
 from statistics import StatisticsError
@@ -32,6 +34,8 @@ class MainWindow:
         heading_label = tk.Label(self.root, text="METRICSTICS", fg="cyan", font=headingFont, bg=self.root.cget('bg'))
         heading_label.pack(pady=(10, 20))  # Add padding for aesthetics
 
+
+
         # Instruction label for user input
         self.instruction_label = tk.Label(self.root, text="Enter numbers separated by commas (e.g., 1,2,3,4,5):",
                                           fg="white", font=labelFont)
@@ -45,7 +49,10 @@ class MainWindow:
         self.upload_button = tk.Button(self.root, text="Upload File", command=self.upload_file,
                                        bg="White", fg="Black", font=buttonFont)
         self.upload_button.pack(pady=10)
-
+        self.generate_data_button = tk.Button(self.root, text="Generate Random Data",
+                                              command=self.generate_random_data, bg="White",
+                                              fg="Black", font=buttonFont)
+        self.generate_data_button.pack(pady=10)
         # Button to calculate and display statistics
         self.stats_button = tk.Button(self.root, text="Calculate Statistics", command=self.calculate_statistics,
                                       bg="White", fg="Black", font=buttonFont)
@@ -75,6 +82,18 @@ class MainWindow:
         self.numbers = []  # List to store user-entered numbers
         self.file_content = None  # Variable to store content from uploaded files
 
+    def generate_random_data(self):
+        """Generate random data and populate the number_entry field with the data."""
+        # Call the function to generate random data and save to 'text.txt'
+        randomValues.save_random_numbers_to_file('text.txt')
+
+        # Read the generated data from 'text.txt'
+        with open('text.txt', 'r') as file:
+            random_data = file.read()
+
+        # Insert the random data into the number_entry field
+        self.number_entry.delete(0, tk.END)
+        self.number_entry.insert(0, random_data)
     def get_numbers(self):
         """Retrieve and validate the numbers entered by the user."""
         numbers_str = self.number_entry.get().strip()
