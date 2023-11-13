@@ -2,7 +2,7 @@ import tkinter as tk
 from tkinter import filedialog, messagebox, simpledialog, ttk, font
 import pandas as pd
 
-from Components import randomValues
+import randomValues
 from METRICSTICS import metricstics
 from PIL import Image, ImageTk
 from statistics import StatisticsError
