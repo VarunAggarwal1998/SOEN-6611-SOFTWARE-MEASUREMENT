@@ -8,6 +8,7 @@ from startWindow import MainWindow
 
 class SignInWindow:
     """A class to create and manage the sign-in window of the application."""
+    #Username: admin ; Password: password
 
     def __init__(self, root):
         """Initialize the sign-in window with a background image, entry fields, and buttons."""
