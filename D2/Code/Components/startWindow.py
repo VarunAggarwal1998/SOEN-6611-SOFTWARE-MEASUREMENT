@@ -146,6 +146,7 @@ class MainWindow:
 
         try:
             # Calculate statistics using methods from the metricstics module
+            numbers_count = len(self.numbers)
             numbers_mean = metricstics.calculate_mean(self.numbers)
             numbers_median = metricstics.calculate_median(self.numbers)
             numbers_mode = metricstics.calculate_mode(self.numbers)
@@ -159,7 +160,7 @@ class MainWindow:
                 self.tree.delete(_)
 
             # Populate the treeview with the calculated statistics
-            stats = [("Minimum", numbers_min), ("Maximum", numbers_max), ("Mode", numbers_mode),
+            stats = [("Count of Numbers: ", numbers_count), ("Minimum", numbers_min), ("Maximum", numbers_max), ("Mode", numbers_mode),
                      ("Median", numbers_median), ("Arithmetic Mean", numbers_mean),
                      ("Mean Absolute Deviation", mean_abs_deviation), ("Standard Deviation", numbers_stdev)]
 
