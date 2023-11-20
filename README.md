@@ -69,3 +69,12 @@ Mohammadreza Amini
       </tbody>
    </table>
 
+
+
+
+## Deliverable 1
+
+<a href="https://docs.google.com/spreadsheets/d/1h-iCLai0bzKN0d1455j3Sytawg9ueldz/edit?usp=sharing&ouid=101893121383928842856&rtpof=true&sd=true"> SM Project Tracker Team A </a>
+
+The above excel tracker defines the roles and responsibilities of each member within our team during the project's execution. Our collaborative efforts were facilitated through various communication channels, including Google Meet, WhatsApp chat, Github, and Google Docs. Thanks to the active participation of every team member in project meetings and their commitment to meeting deadlines, we were able to successfully complete our tasks and ensure the project's smooth progress. This synergy and effective communication played a crucial role in our project's success.
+
